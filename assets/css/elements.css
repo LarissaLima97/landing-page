@@ -54,3 +54,39 @@ a {
 p {
     margin-bottom: 4rem;
 }
+
+.responsive-table {
+    overflow: hidden;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /*Utilizado para retirar o afastamento das bordas na tabela*/
+}
+
+table caption {
+    font-style: italic;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+table td, table th {
+    white-space: nowrap; /*Utilizado para não quebrar o texto na tabela*/
+    text-align: left;
+    padding: 1rem;
+    border: 0.1rem solid var(--light-gray-color);
+}
+
+table th {
+    color: var(--primary-color);
+    background-color: var(--light-gray-color);
+}
+
+tfoot td {
+    border: none;
+    text-align: center;
+    color: var(--primary-color);
+    background-color: var(--light-gray-color);
+}
