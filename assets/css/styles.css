@@ -142,3 +142,21 @@
     background-color: var(--white-color);
     color: var(--primary-color);
 }
+
+.footer {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.footer p {
+    margin: 0;
+    padding: 3rem;
+}
+
+.footer a {
+    color: var(--white-color);
+}
+
+.heart {
+    color: var(--secondary-color);
+}
